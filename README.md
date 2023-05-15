@@ -6,11 +6,11 @@ Dataset: https://www.kaggle.com/datasets/parisrohan/credit-score-classification?
 ### General Important Infromation when Working on this Dataset:
 
 The classification lebel is the Credit_Score column present as the last column for train.csv dataset,
-test.csv does not contain this column and as such it is impossible to evaluet the model using test.csv
+test.csv does not contain this column and as such it is impossible to evaluate the model using test.csv
 
 ### Explanation of columns in the dataset:
 
-<b> ID </b> - Identificator for every transaction, primary key in relation database terms. <br> <br>
+<b> ID </b> - Identificator for every transaction, primary key in relational database terms. <br> <br>
 <b> Customer_ID </b> - Identificator unique for each customer, not primary key, since customers can repeat in the database. <br> <br>
 <b> Month </b> - According to the original kaggle dataset description:"Represents the month of the year", presumably the date when the request was made. Different values are possible for the same Customer_iD. <br> <br>
 <b> Name </b> - Name of the person. <br> <br>
