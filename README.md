@@ -34,7 +34,7 @@ test.csv does not contain this column and as such it is impossible to evaluet th
 <b> Credit_History_Age </b> - Represents the age of credit history of the person. Represented as a string like: "22 Years and 1 Months". Missing values denoted using "NA". <br>
 <b> Payment_of_Min_Amount </b> - Represents whether only the minimum amount was paid by the person. Values like: "Yes, No, NM". NM could mean Not Mentioned but it is not stated explicitly. <br>
 <b> Total_EMI_per_month </b> - Represents the monthly amount invested by the customer (in USD). EMI is a fixed payment amount made by a borrower to a lender at a specified date each calendar month <br>
-<b> Amount_invested_monthly </b> - Represents the monthly amount invested by the customer (in USD). Contains missing values and some values denoted as in an unexpected way like: "__10000__" <br>
+<b> Amount_invested_monthly </b> - Represents the monthly amount invested by the customer (in USD). Contains missing values and some values denoted as in an unexpected way like: \_ \_1000\_ \_" <br>
 <b> Payment_Behaviour </b> - Seems categorical but very verbouse and contains corrupted values like: !@9#%8 <br>
 <b> Monthly_Balance </b> - Represents the monthly balance amount of the customer (in USD). <br>
 <b> Credit_Score </b> - Classification variable. Possible values: "Poor, Standard, Good" <br>
