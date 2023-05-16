@@ -14,9 +14,9 @@ test.csv does not contain this column and as such it is impossible to evaluate t
 <b> Customer_ID </b> - Identificator unique for each customer, not primary key, since customers can repeat in the database. <br> <br>
 <b> Month </b> - According to the original kaggle dataset description:"Represents the month of the year", presumably the date when the request was made. Different values are possible for the same Customer_iD. <br> <br>
 <b> Name </b> - Name of the person. <br> <br>
-<b> Age </b> - Age of the person (integer). <br> <br>
+<b> Age </b> - Age of the person (integer). Some values are incorrect like "-500". <br> <br>
 <b> SSN </b> - Represents the social security number of a person. Should (probably) be unique for each Customer_ID but some values appear to be corrupted in the dataset. In the US first 4 digits used to be related to geaographic area but since 2011 this is no longer the case, so depending on when the dataset was constructed it might not be useful anymore.<br> <br>
-<b> Occupation </b> - Job of the customer. String but also a nominal attribute. Some missing values are not actually denoted as multiple-> _ characters  <br>
+<b> Occupation </b> - Job of the customer. String but also a nominal attribute. Some missing values are not actually denoted as multiple-> _ characters  <br> <br>
 <b> Annual_Income </b> - Annual income of the customer. Some values contain _ at the end of the number for some reason, like: 35547.71_. Also there seem to be some significant outliers or errors like for example customer with Customer_ID: CUS_0x284a had Annual_Income=131313.4 for transcation ID=0x164f but then had Annual_Income=10909427.0 for transaction ID=0x1650 <br> <br>
 <b> Monthly_Inhand_Salary </b> - Represents the monthly base salary of a person. Contains a lot of missing values and may also contain outliers, although it is not certain. This time there does not seem to be a problem with _ sign at the end of some values but it may require further analysis. <br> <br>
 <b> Num_Bank_Accounts </b> - Number of bank accounts owned by the given customer. Possible errors/outliers like: 1414. <br> <br>
