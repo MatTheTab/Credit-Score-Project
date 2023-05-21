@@ -1,0 +1,21 @@
+Dimensionality Reduction,Model,Best Hyperparameters,Best Accuracy
+,RandomForestClassifier,"{'classifier__max_depth': None, 'classifier__n_estimators': 500}",0.7799285714285714
+,DecisionTreeClassifier,{'classifier__max_depth': 7},0.7660857142857143
+,KNeighborsClassifier,"{'classifier__metric': 'l1', 'classifier__n_neighbors': 6}",0.7583428571428572
+PCA(n_components=30),RandomForestClassifier,"{'classifier__max_depth': None, 'classifier__n_estimators': 500}",0.7472285714285715
+PCA(n_components=20),RandomForestClassifier,"{'classifier__max_depth': None, 'classifier__n_estimators': 500}",0.7322428571428572
+PCA(n_components=30),KNeighborsClassifier,"{'classifier__metric': 'l1', 'classifier__n_neighbors': 6}",0.7308428571428573
+PCA(n_components=15),RandomForestClassifier,"{'classifier__max_depth': None, 'classifier__n_estimators': 500}",0.7029
+PCA(n_components=30),DecisionTreeClassifier,{'classifier__max_depth': 12},0.6976
+PCA(n_components=20),KNeighborsClassifier,"{'classifier__metric': 'l1', 'classifier__n_neighbors': 6}",0.6966285714285714
+PCA(n_components=20),DecisionTreeClassifier,{'classifier__max_depth': 12},0.6912142857142857
+,LogisticRegression,{'classifier__C': 10.0},0.6829857142857143
+PCA(n_components=30),LogisticRegression,{'classifier__C': 10.0},0.675457142857143
+PCA(n_components=15),KNeighborsClassifier,"{'classifier__metric': 'l1', 'classifier__n_neighbors': 12}",0.6706428571428571
+PCA(n_components=15),DecisionTreeClassifier,{'classifier__max_depth': 7},0.6596
+PCA(n_components=30),GaussianNB,{},0.6524999999999999
+PCA(n_components=20),GaussianNB,{},0.6503428571428571
+PCA(n_components=20),LogisticRegression,{'classifier__C': 1.0},0.6438857142857144
+PCA(n_components=15),GaussianNB,{},0.6437142857142857
+PCA(n_components=15),LogisticRegression,{'classifier__C': 1.0},0.6394571428571428
+,GaussianNB,{},0.5445142857142857
